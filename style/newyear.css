@@ -10,6 +10,7 @@ body {
     url("../images/Banner.png");
   background-repeat: no-repeat;
   padding: 125px 140px;
+  margin-top: 50px;
 }
 .banner-new-year {
   color: #fff;
