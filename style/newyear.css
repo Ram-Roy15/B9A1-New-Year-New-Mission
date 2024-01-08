@@ -203,7 +203,7 @@ main {
 }
 .offer-pic {
   display: flex;
-   margin-top: 40px;
+  margin-top: 40px;
   justify-content: space-between;
   gap: 0;
   width: 50%;
@@ -211,24 +211,32 @@ main {
 .discount {
   display: flex;
   align-items: center;
- 
 }
 #lady {
-
+  width: 342px;
+  position: relative;
+  z-index: 0;
+  left: 100px;
 }
 .group-75 {
-  width: 750px;
+  width: 600px;
   height: 500px;
+  padding-left: 60px;
   position: relative;
-  margin-bottom: -300px;
+  margin-bottom: -150px;
+  z-index: 1;
+  top: 10px;
 }
 .group-44 {
-   margin-right: -100px;
+  margin-right: -100px;
   position: relative;
+  width: 200px;
+  z-index: 3;
+  left: 80px;
 }
-.red-line{
-   width: 1240px;
-   margin-top: -32px;
+.red-line {
+  width: 1200px;
+  margin-top: -2.5px;
 }
 .gift {
   color: #f00;
