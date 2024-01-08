@@ -207,11 +207,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0;
+  gap: 10px;
 }
 #lady {
-  width: 380px;
-  height: 380x;
+  width: 400px;
 }
 .group-75 {
   width: 400px;
@@ -246,6 +245,10 @@ body {
 .box {
   height: 450px;
   width: 424px;
+  transition: 1s;
+}
+.box:hover {
+  transform: scale(1.1);
 }
 .subscribe {
   border-radius: 16px;
