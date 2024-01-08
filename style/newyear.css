@@ -1,0 +1,131 @@
+body {
+  background: #fff;
+  font-family: "Merriweather", serif;
+  width: 1240px;
+  margin: auto;
+}
+.banner {
+  border-radius: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  padding: 125px 140px;
+}
+.banner-new-year {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+}
+.banner-new-year-party {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+}
+#off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+#deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 0;
+}
+#year-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 80px;
+}
+.all-categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: center;
+}
+.wecome-party {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  border-radius: 16px;
+  gap: 80px;
+}
+.party-head {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 890;
+}
+.party-des {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+.party-btn {
+  color: #fff;
+  border: none;
+  background: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 140px;
+}
+.time-and-place {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.venue {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.place {
+  background-color: rgb(245, 241, 241);
+  margin-top: 120px;
+  border-radius: 16px;
+}
+.join-btn {
+  color: #fff;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+  border-radius: 8px;
+  border: 0;
+  background: #f00;
+}
+.padding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 360px;
+}
