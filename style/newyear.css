@@ -167,3 +167,82 @@ body {
   padding: 15px;
   border-radius: 50%;
 }
+.functional {
+  margin-top: 120px;
+}
+.sale-des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#new-des {
+  padding-left: 350px;
+  padding-right: 350px;
+  text-align: center;
+}
+.sale {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.holiday {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 900;
+}
+.offer-pic {
+  display: flex;
+  justify-content: space-between;
+  gap: 0;
+  width: 50%;
+}
+.discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+#lady {
+  width: 380px;
+  height: 380x;
+}
+.group-75 {
+  width: 400px;
+  height: 300px;
+}
+.group-44 {
+  height: 50%;
+}
+.gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 100px;
+}
+.awsome {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.box {
+  height: 450px;
+  width: 424px;
+}
