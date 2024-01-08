@@ -4,6 +4,9 @@ body {
   width: 1240px;
   margin: auto;
 }
+main {
+  width: 1200px;
+}
 .banner {
   border-radius: 16px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -129,7 +132,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 360px;
+  padding: 100px 300px;
 }
 .new-offer {
   display: flex;
@@ -200,25 +203,32 @@ body {
 }
 .offer-pic {
   display: flex;
+   margin-top: 40px;
   justify-content: space-between;
   gap: 0;
   width: 50%;
 }
 .discount {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
+ 
 }
 #lady {
-  width: 400px;
+
 }
 .group-75 {
-  width: 400px;
-  height: 300px;
+  width: 750px;
+  height: 500px;
+  position: relative;
+  margin-bottom: -300px;
 }
 .group-44 {
-  height: 50%;
+   margin-right: -100px;
+  position: relative;
+}
+.red-line{
+   width: 1240px;
+   margin-top: -32px;
 }
 .gift {
   color: #f00;
@@ -244,8 +254,8 @@ body {
   margin-bottom: 24px;
 }
 .box {
-  height: 450px;
-  width: 424px;
+  height: 430px;
+  width: 375px;
   transition: 1s;
 }
 .box:hover {
