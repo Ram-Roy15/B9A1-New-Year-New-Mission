@@ -7,7 +7,7 @@ body {
 .banner {
   border-radius: 16px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/images/Banner\ Image.png");
+    url("../images/Banner.png");
   background-repeat: no-repeat;
   padding: 125px 140px;
 }
@@ -63,7 +63,7 @@ body {
 }
 .wecome-party {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/images/Vectorrr.png");
+    url("../images/Vectorrr.png");
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
